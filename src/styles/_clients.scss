@@ -1,0 +1,37 @@
+
+$grey:#6A6464;
+
+.client-list{
+  width:30%;
+  display: inline-block;
+  vertical-align: top;
+}
+.client-info{
+  width: 70%;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  padding: 15px;
+
+  .client-info-photo-img,
+  .client-info-photo-info{
+    display: inline-block;
+    vertical-align: top;
+  }
+  .client-info-photo-info{
+    margin-left: 10px;
+    .main{
+      font-size: 22px;
+    }
+    .sub{
+      font-size: 14px;
+      color:$grey;
+    }
+  }
+
+}
+
+.client-info-placeholder{
+  color: $grey;
+  margin-top: 50px;
+}
