@@ -26,11 +26,13 @@ export function clients(state = initialState, action){
             };
         case FETCH_CLIENTS_SUCCESS:
             return {
+            	...state,
                 isLoading:false,
                 clients:action.clients
             };
         case FETCH_CLIENTS_ERROR:
             return {
+            	...state,
                 isLoading:false
             };
         case SHOW_CLIENT_INFO:
